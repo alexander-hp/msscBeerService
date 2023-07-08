@@ -7,6 +7,10 @@ import org.springframework.data.domain.Pageable;
 
 public class BeerPagedList extends PageImpl<BeerDto> {
 
+  /* 
+  ? PageImpl se especializa para poder trabajar con una lista
+  ? paginada de objetos eneste caso de BeerDto
+  */ 
   public BeerPagedList(List<BeerDto> content, Pageable pageable, long total) {
     super(content, pageable, total);
     //TODO Auto-generated constructor stub

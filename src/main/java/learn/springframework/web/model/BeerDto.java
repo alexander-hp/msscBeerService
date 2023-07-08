@@ -13,7 +13,7 @@ import lombok.NoArgsConstructor;
 @NoArgsConstructor
 @AllArgsConstructor 
 @Builder
-class BeerDto {
+public class BeerDto {
 
   private UUID id;
   private Integer version;
